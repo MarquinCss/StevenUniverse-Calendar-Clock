@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+
+body{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+cursor:url("curs.ico"),default;
+
+}
+
+.container{
+    margin-top:50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-width:500px;
+    min-height:500px;
+    text-align: center;
+    background-color: transparent;
+    font-size: 30px;
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: top center;
+}
+
+.clo{
+padding-bottom:390px;
+font-size:40px;
+}
+
+.frase{
+position: absolute;
+top:153px;
+}
+
+.msg{
+    font-size:30px;
+}
